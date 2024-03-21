@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto';
+    line-height: 1.4;
+}
+p {
+    margin: 0.75rem 0;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-primary{
+    color: #93cb52;
+}
+
+.m-heading{
+    font-size: 2em;
+}
+
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
+.container{
+    max-width: 68.75em;
+    margin: auto;
+    padding: 0 2em;
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #333;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.logo{
+    color:white;
+    font-size: 1.5em;
+}
+
+.logo span{
+    color: #93cb52;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    margin: 0 0.25em;
+}
+
+.nav li a{
+    color: white;
+    font-size: 1em;
+    color:white;
+    padding: 0.75em;
+}
+
+.nav li:hover a{
+    background-color: #93cb52;
+    border-radius: 0.5em;
+}
+
+.showcase {
+    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+  
+.showcase .showcase-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.showcase-content h1{
+    font-size: 3.75em;
+    margin-bottom: 0.75em;
+}
+
+.showcase-content p{
+    font-size: 1.3em;
+    margin: 0.75em 0;
+}
+
+.btn-read-more{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-read-more:hover{
+    background: #7ab436;
+}
+/* what section */
+
+#what .container .items{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#what .items .item{
+    display: flex;
+    padding: 1em;
+}
+
+#what .items .item i{
+    align-self: center;
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+
+#what .items .item p{
+    line-height: 1.7em;
+}
+
+/* who section */
+#who{
+    display: flex;
+    background-color: rgb(51,51,51);
+    color:white;
+}
+
+#who div{
+    flex: 1;
+}
+
+#who .who-img{
+    background: url('/edgeLedger_clone/img/people.jpg') no-repeat center center/cover;
+}
+
+#who .who-content{
+    margin-left: 2em;
+    line-height: 1.7em;
+    margin-bottom: 1em;
+}
+
+#who .who-content p{
+    border-bottom: rgb(68, 68, 68) 1px dotted;
+}
+
+/* our client section */
+#clients .our-clients{
+    display: flex;
+}
+
+.client-img{
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+/* contact section */
+#contact{
+    display: flex;
+    color: white;
+    margin-top: 2em;
+}
+
+.contact-form{
+    background-color: #7ab436;
+}
+
+.form-group label{
+    display: block;
+}
+
+#contact .contact-form{
+    padding: 2em;
+    flex: 0.4
+}
+#contact .map{
+    background-color: #333;
+    flex: 0.6;
+}
+
+.form-group {
+    padding: 0.5em;
+}
+.form-group input,.form-group textarea{
+    width: 100%;
+    padding: 0.75em;
+}
+.contact-form form .btn{
+    width: 100%;
+    background-color: #333;
+    padding: 0.5em;
+    color: white;
+    opacity: 0.9;
+}
+.footer{
+    background-color: #333;
+    color: white;
+}

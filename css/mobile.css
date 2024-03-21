@@ -1,0 +1,48 @@
+body{
+    margin-right: auto;
+}
+#what .items{
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+#what .items .item{
+    display: flex;
+    text-align: left;
+}
+
+#what .items .item i{
+    margin-right: 1.3em;
+    align-self: center;
+    margin-bottom: 0;
+}
+@media(max-width: 31.25em){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar .logo{
+        margin-bottom: 0.5em;
+    }
+    #who{
+        display: block;
+    
+    }
+    #who .who-img{
+        display: none;
+    }
+    #who .who-content{
+        margin-bottom: 1em;
+    }
+    #clients .client-img:last-child{
+        display: none;
+    }
+    #clients .client-img{
+        width: 16%;
+    }
+    #contact{
+        display: block;
+    }
+    #contact .map{
+        height: 20em;
+    }
+}
